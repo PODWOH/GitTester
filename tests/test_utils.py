@@ -1,5 +1,6 @@
 from src.my_package.utils import is_even, is_positive
 
+
 class TestUtils:
     def test_is_even(self):
         assert is_even(2) is True
